@@ -1,0 +1,489 @@
+
+/*#b148d2
+#e79aff	
+#f3ccff	
+#fbeeff
+
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Protest Guerrilla', sans-serif;
+font-family: 'Protest Riot', sans-serif;
+font-family: 'Protest Strike', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+:root{
+    --background-color: linear-gradient(to right, blue, pink);
+    --Wtext: white;
+    --Navtext: black;
+    --button: #f5f5dc;
+}
+
+
+.SignUpbtm {
+    font-weight: 700;
+    background: none;
+    color: var(--Navtext);
+     border-radius: 5px;
+     border: 2px solid rgb(189,118,251);
+     padding: 10px;
+}
+
+
+
+.freetrialbtm {
+    font-weight: 700; 
+    background: rgb(189,118,251);
+    background: linear-gradient(90deg, rgba(189,118,251,1) 0%, rgba(220,129,209,1) 100%);
+          border: none;
+          padding: 10px;
+          border-radius: 7px;
+          color: #e1e1e1;
+          margin-left: 5px;
+}
+
+
+
+.bothbutton{
+    margin: 2em;
+}
+
+.bothbutton .enrol{
+    background: rgb(183,114,255);
+    background: linear-gradient(90deg, rgba(183,114,255,1) 0%, rgba(229,131,199,1) 100%);
+    border: none;
+    color: white;
+    width: 90px;
+    height: 42px;
+    border-radius: 7px;
+    margin-right: 15px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+.bothbutton .Free{
+    font-weight: 700;
+    margin-right: 12px;
+    background: none;
+    color: black;
+     width: 90px;
+     height: 42px;
+     border-radius: 10px;
+     border: 2px solid rgb(183,114,255);
+}
+
+
+
+
+.wraper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.introHero{
+    padding: 1em;
+    text-align: center;
+}
+
+.introHero h3{
+    padding-top: 4em;
+}
+
+.Develop{
+    background: -webkit-linear-gradient(90deg, rgba(183,114,255,1) 0%, rgba(229,131,199,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Protest Riot', sans-serif;
+}
+
+
+
+
+.navbar-brand{
+    font-weight: 900;
+    font-family: 'Protest Riot', sans-serif;
+    background: -webkit-linear-gradient(90deg, rgba(183,114,255,1) 0%, rgba(229,131,199,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-item{
+    font-weight: 900;
+}
+
+.dropdown-item{
+    background: -webkit-linear-gradient(90deg, rgba(183,114,255,1) 0%, rgba(229,131,199,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+.navwrapper{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(183,114,255);
+    background: linear-gradient(90deg, rgba(183,114,255,1) 0%, rgba(229,131,199,1) 100%);
+    padding: 1em;
+}
+
+.navwrapper span{
+      font-weight: 700;
+}
+
+
+
+
+.search-section h3{
+             display: flex;
+             justify-content: center;
+             margin-top: 1em;
+             background: -webkit-linear-gradient(90deg, rgba(183,114,255,1) 0%, rgba(229,131,199,1) 100%);
+             -webkit-background-clip: text;
+             -webkit-text-fill-color: transparent;
+}
+
+
+ .search-section .searchplace{
+    display: flex;
+    justify-content: center;
+}  
+
+ .search-section .searchplace input{
+    font-size: 15px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgba(183,114,255,1);
+}  
+
+ .search-section .searchplace button{
+    background: rgb(183,114,255);
+    background: linear-gradient(90deg, rgba(183,114,255,1) 0%, rgba(229,131,199,1) 100%);
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}  
+
+
+.first-scoo img{
+    width: 100%;
+}
+
+.outine{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2em;
+}
+
+#both{
+    display: flex;
+}
+
+#both h3{
+    background: rgb(183,114,255);
+    background: linear-gradient(90deg, rgba(183,114,255,1) 0%, rgba(229,131,199,1) 100%);
+    padding: 5px;
+    border-radius: 60%;
+    margin-right: 10px;
+    padding-top: 5px;
+}
+
+.scond-scoo span{
+    background: -webkit-linear-gradient(90deg, rgba(183,114,255,1) 0%, rgba(229,131,199,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Protest Riot', sans-serif;
+}
+
+.our-course{
+    display: block;
+    background: rgb(183,114,255);
+    background: linear-gradient(90deg, rgba(183,114,255,1) 0%, rgba(229,131,199,1) 100%);
+    margin-top: 2em;
+}
+
+.our-course h3{
+       display: flex;
+       justify-content: center;
+       color: #fff;
+}
+
+.our-course span{
+       display: flex;
+       justify-content: center;
+       text-align: center;
+       color: #fff;
+}
+.course-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+    padding: 2em;
+}
+
+
+.course-card{
+       background-color: #fff;
+       border-radius: 15px;
+}
+.course-card img{
+       width: 100%;
+       padding-left: 5px;
+       padding-right: 5px;
+       padding-top: 5px;
+       border-radius: 16px;
+}
+
+.courseName{
+    display: flex;
+    justify-content: space-around;
+}
+
+.courseName a{
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+#rating{
+    color: #101415;
+    background: rgb(169, 115, 228);
+    border-radius: 3px;
+    color: #fff;
+    padding: 2px;
+    padding-right: 10px;
+}
+#webdesign{
+    color: #101415;
+    background: rgb(200, 171, 231);
+    border-radius: 3px;
+    padding: 2px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+
+}
+
+#sub-course{
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    margin-top: 8px;
+    font-weight: 700;
+}
+
+.best-student img{
+    width: 15%;
+    border-radius: 50%;
+}
+
+
+.payment{
+    display: flex;
+    padding-left: 5em;
+}
+
+.private-style{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.lecturar-first span{
+    background: -webkit-linear-gradient(90deg, rgba(183,114,255,1) 0%, rgba(229,131,199,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#Enjoy{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.b_i{
+    background: rgb(183,114,255);
+    background: linear-gradient(90deg, rgba(183,114,255,1) 0%, rgba(229,131,199,1) 100%);
+    font-weight: 700;
+    font-style: italic;
+    border: none;
+    border-radius: 3px;
+    margin-top: 1em;
+}
+
+
+.b_i a{
+    color: #fff;
+    text-decoration: none;
+}
+.ist-section{
+    display: flex;
+    font-weight: 700;
+}
+
+.Testimony-wrapper{
+    background: rgb(183,114,255);
+    background: linear-gradient(90deg, rgba(183,114,255,1) 0%, rgba(229,131,199,1) 100%);
+}
+
+.student-tes h5{
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    font-weight: 700;
+    color: #fff;
+}
+
+.student-tes aside{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+}
+.tex-card_wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.proflie-section{
+    display: flex;
+    margin-top: 4em;
+}
+.proflie-section img{
+    width: 10%;
+    border-radius: 50%;
+}
+
+#alice-rating{
+    display: block;
+}
+
+.first-student{
+    margin-left: 7em;
+}
+
+.first-student b{
+    color: #fff;
+}
+
+.second-student b{
+    color: #fff;
+}
+
+.tird-student b{
+    color: #fff;
+}
+
+
+
+.c-more{
+    font-size: 25px;
+    font-family: franklin gothic medium;
+    text-decoration: none;
+}
+.c-more a{
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+
+
+
+
+
+@media (max-width: 992px){
+    .img-section img{
+        width: 100%;
+    }
+
+    .wraper{
+        display: block;
+        justify-content: space-around;
+    }
+    .introHero h3{
+        padding-top: 0;
+    }
+
+    .our-course{
+        display: block;
+    }
+}
+
+
+@media (max-width: 768px){
+    .introHero h3{
+        padding-top: 0;
+        font-size: 35px;
+    }
+    
+    .introImg img{
+        width: 100%;
+    }
+    .search-section .searchplace input{
+        width: 150px;
+        border-bottom: 2px solid rgba(183,114,255,1);
+    }  
+
+    .outine{
+        display: block;
+    }
+
+    .our-course{
+        display: block;
+    }
+    .course-wrap{
+        display: block;
+    }
+
+    .payment{
+        display: flex;
+        padding-left: 1em;
+    }
+
+    .private-style{
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .best-student img{
+        width: 20%;
+        border-radius: 50%;
+    }
+    
+
+    .onlinedegree{
+        margin: 2em;
+    }
+
+    .scond-scoo #bene-id{
+        margin-left: 20px;
+    }
+
+    .lecturar-wraper{
+        display: block;
+    }
+
+    .sec{
+        padding: 2em;
+    }
+
+    .tex-card_wrapper{
+        display: block;
+    }
+
+    .first-student{
+        margin-left: 0;
+    }
+
+    .tex-card_wrapper{
+        display: block;
+        margin-left: 3em;
+        margin-bottom: 2em;
+    }
+
+}
